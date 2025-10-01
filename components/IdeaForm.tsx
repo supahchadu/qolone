@@ -54,7 +54,7 @@ const IdeaForm = () => {
                     description: "Please double check your inputs and try again :)",
                     variant: "destructive",
                 });
-                return {... prevState, error: "Validation failed", status: "ERROR"};
+                return {...prevState, error: "Validation failed", status: "ERROR"};
             }
 
             toast({
@@ -121,7 +121,7 @@ const IdeaForm = () => {
             </Button>
         </form>
     );
-// GO VIDEO TIME: 3:55:34 --
+
 }
 
 export default IdeaForm;
